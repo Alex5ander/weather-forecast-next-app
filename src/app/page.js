@@ -43,7 +43,7 @@ export default async function Home({ searchParams }) {
             </svg>
           </button>
         </form>
-        {data && (
+        {/* {data && (
           <div className="text-white flex flex-col gap-y-4 items-center">
             <img src={`https:${data.current.condition.icon}`} alt="icon"></img>
             <h2 className="text-4xl font-bold">{data.current.temp_c}°</h2>
@@ -88,7 +88,7 @@ export default async function Home({ searchParams }) {
               </div>
             </div>
           </div>
-        )}
+        )} */}
       </main>
     </div>
   );
