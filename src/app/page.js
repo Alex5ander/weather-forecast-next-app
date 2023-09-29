@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Weather from './weather';
 
 async function getData(q) {
