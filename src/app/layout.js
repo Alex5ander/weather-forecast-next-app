@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Consultar clima',
+  title: 'Consultar o clima',
   description: 'Aplicativo para consultar o clima',
 };
 
