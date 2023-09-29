@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 async function getData(q) {
   try {
     const url = `http://api.weatherapi.com/v1/current.json?key=${
@@ -45,7 +47,12 @@ export default async function Home({ searchParams }) {
         </form>
         {data && (
           <div className="text-white flex flex-col gap-y-4 items-center">
-            {/* <img src={`https:${data.current.condition.icon}`} alt="icon"></img> */}
+            <Image
+              src={`https:${data.current.condition.icon}`}
+              width={64}
+              height={64}
+              alt="icon"
+            />
             <h2 className="text-4xl font-bold">{data.current.temp_c}°</h2>
             <h3 className="text-2xl font-medium text-center">
               {data.location.name}, {data.location.region}
