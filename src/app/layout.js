@@ -6,6 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata = {
   title: 'Consultar o clima',
   description: 'Aplicativo para consultar o clima',
+  themeColor: '#33becf',
 };
 
 export default function RootLayout({ children }) {
