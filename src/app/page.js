@@ -33,6 +33,8 @@ export default async function Home({ searchParams }) {
           <button
             className="p-5 bg-white rounded-full shadow-md hover:scale-105 focus:outline-cyan-400 focus:outline"
             type="submit"
+            aria-label="buscar"
+            title="buscar"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
