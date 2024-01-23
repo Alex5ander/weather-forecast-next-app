@@ -28,7 +28,7 @@ export default async function Home({ searchParams }) {
             type="text"
             name="q"
             autoComplete="off"
-            value={searchParams.q}
+            defaultValue={searchParams.q}
           />
 
           <button
